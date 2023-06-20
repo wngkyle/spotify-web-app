@@ -3,16 +3,6 @@ import { Container } from "react-bootstrap"
 
 const randomString = require('randomstring')
 
-let generateRandomString = function (length) {
-  var text = ''
-  var possible = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789'
-
-  for (var i = 0; i < length; i++) {
-    text += possible.charAt(Math.floor(Math.random() * possible.length))
-  }
-  return text
-}
-
 const auth_endpoint = "https://accounts.spotify.com/authorize"
 const client_id = "1d9ed032c07a461d803df4e905fcae3c"
 const response_type = "code"
@@ -26,9 +16,7 @@ const scopes = [
   "user-read-playback-state",
   "user-modify-playback-state",
 ]
-const prevState = generateRandomString(16)
-// const prevState = randomString(16)
-export { prevState }
+const prevState = randomString.generate(16)
 
 const auth_url = `${auth_endpoint}?client_id=${client_id}&response_type=${response_type}&state=${prevState}&redirect_uri=${redirect_uri}&scope=${scopes.join(
   "%20"
@@ -39,7 +27,7 @@ export default function Login() {
     <Container
       className="d-flex justify-content-center align-items-center"
       style={{ minHeight: "100vh" }}
-    >
+    > 
       <a className="btn btn-success btn-lg" href={auth_url}>
         Login With Spotify
       </a>
