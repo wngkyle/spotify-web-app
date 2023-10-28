@@ -23,7 +23,7 @@
 - Bootstrap
 - CORS
 - Express.js
-- Spotify Web App
+- Spotify Web API
 - LyricsFinder
 
 ### Technologies Used
