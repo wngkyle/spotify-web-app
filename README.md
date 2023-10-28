@@ -8,10 +8,11 @@
 
 ### Introduction
 
+![ezgif com-video-to-gif](https://github.com/wngkyle/spotify-web-app/assets/99611120/dbf203e3-e5bd-4461-a353-4780fb1792ea)
 
 
 <p align="center">
-  <img src="https://github.com/wngkyle/spotify-web-app/assets/99611120/73e1647a-6980-4d4d-be1a-62c2558b2753" >
+  <img src="https://github.com/wngkyle/spotify-web-app/assets/99611120/dbf203e3-e5bd-4461-a353-4780fb1792ea" >
 </p>
 
 ### Built With
