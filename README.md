@@ -8,9 +8,11 @@
 
 ### Introduction
 
-![ezgif com-video-to-gif](https://github.com/wngkyle/spotify-web-app/assets/99611120/73e1647a-6980-4d4d-be1a-62c2558b2753)
+<p align="center">
+  <img src="https://github.com/wngkyle/spotify-web-app/assets/99611120/73e1647a-6980-4d4d-be1a-62c2558b2753" >
+</p>
 
-<img alt="color picker" align="center" src="https://github.com/wngkyle/spotify-web-app/assets/99611120/73e1647a-6980-4d4d-be1a-62c2558b2753" />
+![ezgif com-video-to-gif](https://github.com/wngkyle/spotify-web-app/assets/99611120/73e1647a-6980-4d4d-be1a-62c2558b2753)
 
 ### Built With
 
